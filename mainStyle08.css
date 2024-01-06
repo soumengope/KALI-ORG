@@ -1,0 +1,155 @@
+body{background-color:black;margin:0;padding:0;}
+#main_introSection{display:grid;grid-template-columns:repeat(6,1fr);color:white;padding-top:100px;
+    justify-content:space-around;gap:50px;
+    background:rgb(19,27,63);padding-bottom:100px;width:100%;}
+#kali_img{grid-column:2/3;width:280px;height:280px;background-color:rgb(22,115,158);border-radius:50%;
+    box-shadow:5px 5px 20px rgb(22, 47, 158);}
+#kali_img img{opacity:1;position:relative;right:82px;bottom:10px;}
+#getLinux_section{grid-column:3/-1;}
+#getLinux_header{font-size:30px;font-weight:500;padding-bottom:30px;}
+#getLinux_desc{font-size:20px;line-height:35px;padding-bottom:30px;}
+#getKali_DD{display:flex;gap:20px;}
+#getKali_download{border:2px solid rgb(226, 151, 12);width:200px;height:40px;text-align:center;
+    padding-top:15px;font-weight:600;color:rgb(226,151,12);box-shadow:1px 1px 5px yellow;
+    cursor:pointer;}
+#getKali_documentation{width:200px;height:40px;text-align:center;cursor:pointer;
+    box-shadow:1px 1px 5px rgb(22, 115, 158);padding-top:15px;font-weight:600;
+    background:rgb(22, 115, 158);border:2px solid rgb(22,115,158)}
+
+#about_kali{padding-top:100px;padding-bottom:100px;color:white;text-align:center;}
+#aboutKali_header{font-size:40px;font-weight:600;color:linear-gradient(0deg,blue,purple);
+    padding-bottom:40px;}
+#aboutKali_desc{font-size:25px;padding-bottom:40px;}
+.std{padding-bottom:40px;}
+.std_img{display:flex;gap:15px;justify-content:left;padding-bottom:20px;text-align:left;}
+.std_hdr{font-size:20px;font-weight:600;}
+.std_des{font-size:15px;line-height:25px;}
+.std_des a{text-decoration:none;color:rgb(78, 78, 238);}
+#aboutKali_standard_main,#about_kali_standard2{display:flex; justify-content:center;gap:20px;
+    text-align:left;}
+#about_kali_standard2{padding-bottom:50px;}
+
+#kali_tools_main{padding-top:100px;padding-bottom:100px;color:white;text-align:center;
+    background:rgb(24, 24, 31);width:100%;}
+#kali_tools_header{font-size:30px;font-weight:500;padding-bottom:40px;}
+#kali_tools_desc{font-size:20px;font-weight:500;line-height:35px;padding-bottom:30px;}
+#kali_tools_botHeader{font-size:20px; font-weight:600;padding-bottom:30px;}
+#kali_tools_botHeader a{color:rgb(78, 78, 238);text-decoration:none;}
+.kali_tools_divs{display:flex;gap:50px;width:80%;margin:0 auto;
+    overflow:scroll;}
+.kali_tools_lists{padding:10px;margin:10px;}
+.kaliTools_listImg{padding-bottom:10px;}
+.kaliTools_listName{font-size:16px;font-weight:500;}
+
+#kali_everywhere_main{padding-top:100px;color:white;padding-bottom:100px;text-align:center;}
+#kali_everywhere_header{font-size:40px;font-weight:600;color:linear-gradient(0deg,blue,purple);
+    padding-bottom:40px;}
+#kali_everywhere_footerDivs{display:flex;gap:20px;justify-content:space-around;padding-top:20px;
+    padding-bottom:50px;}
+.kaliEverywhere_divDown{position:relative; top:100px;}
+.kaliEverywhere_img img{padding-bottom:40px;}
+.kaliEverywhere_imgHeader{font-size:20px;font-weight:600;padding-bottom:25px;}
+.kaliEverywhere_imgDesc{line-height:30px;text-align:left;}
+.kaliEverywhere_imgDesc a{text-decoration:none;color:rgb(78, 78, 238);}
+
+#kali_elements_main{color:white;display:grid; grid-template-columns:repeat(4,1fr);
+    padding-bottom:100px;width:95%;margin:0 auto;}
+.kaliElem_divs{padding-bottom:40px;margin:0 auto;width:300px;height:250px;border:1px solid gray;
+    margin-bottom:20px;padding-left:10px;box-shadow:1px 1px 5px blue;}
+.kaliElem_divsImgHeader_main{display:flex;gap:5px;}
+.kaliElem_divsImgHeader{font-size:16px;font-weight:600;position:relative;top:60px;}
+.kaliElem_divsDesc{font-size:12px;line-height:25px;text-align:left;}
+
+#kali_preferDesktop_main{padding-top:100px;padding-bottom:100px;color:white;text-align:center;
+    background:rgb(24, 24, 31);}
+#kali_preferDesktop_header{font-size:40px;font-weight:600;color:linear-gradient(0deg,blue,purple);
+    padding-bottom:50px;}
+.kali_preferDesktop_divs{padding-top:10px;padding-bottom:40px;display:flex;justify-content:center;gap:50px;}
+.preferDesktop_divsLH{display:flex;gap:10px;padding-bottom:30px;}
+.preferDesktop_divsHeader{font-size:25px;font-weight:600;position:relative;top:10px;}
+.preferDesktop_divsDesc{text-align:left;line-height:25px;}
+.preferDesktop_divsElems{width:450px;height:350px;}
+#preferDesktophide_desktop{display:none;}
+
+#kali_latest_news{padding-top:150px;padding-bottom:200px;color:white;text-align:center;}
+#kaliLatestNews_header{font-size:40px;font-weight:600;color:linear-gradient(0deg,blue,purple);
+    padding-bottom:50px;}
+#kaliLatestNews_header a{text-decoration:none;padding-right:180px;}
+.kaliNews_mainDiv{display:flex;gap:20px;justify-content:center;padding-bottom:20px;}
+.kaliNews_div_main{background:rgb(24, 24, 31);width:400px;}
+.kaliNews_divImg{padding-bottom:20px;}
+.kaliNews_divHeader{font-size:18px;font-weight:600;padding-bottom:30px;text-align:left;padding-left:30px;}
+.kaliNews_divDesc{text-align:left;font-size:15px;padding-left:30px;line-height:23px;padding-bottom:30px;}
+.kaliNews_divLink{display:flex;gap:10px;padding-bottom:20px;padding-left:30px;}
+#img001{position:relative;right:2px;}
+#img002{position:relative;right:0px;}
+
+@media screen and (min-width:0px) and (max-width:760px) {
+    #main_introSection{display:flex;flex-direction:column;}
+    #kali_img{margin:0 auto;padding-bottom:30px;width:auto;height:auto;background-color:none;
+        border-radius:10%;box-shadow:none;}
+    #kali_img img{width:300px;height:200px;opacity:1;position:relative;right:0px;bottom:0px;
+        top:20px;}
+    #getLinux_header{font-size:22px;padding-left:10px;padding-bottom:20px;}
+    #getLinux_desc{font-size:11px;line-height:30px;padding-bottom:20px;padding-left:10px;}
+    #getKali_download{width:150px;height:40px;margin-left:10px;}
+    #getKali_documentation{width:150px;height:40px;margin-left:10px;}
+
+    #about_kali{padding-top:50px;padding-bottom:50px;}
+    #aboutKali_header{font-size:23px;padding-bottom:25px;text-align:center;}
+    #aboutKali_desc{font-size:14px;padding-bottom:40px;font-weight:600;line-height:25px;}
+    .std{padding-bottom:40px;}
+    .std_img{display:flex;gap:10px;justify-content:center;padding-bottom:10px;}
+    .std_hdr{font-size:16px;font-weight:600;}
+    .std_des{font-size:14px;line-height:20px;text-align:center;}
+    .std_des a{text-decoration:none;color:rgb(78, 78, 238);}
+    #aboutKali_standard_main,#about_kali_standard2{display:flex;justify-content:center;gap:20px;
+        text-align:left;flex-direction:column;}
+    #kali_bigScreen_pic img{width:80%;height:200px;}  
+
+    #kali_tools_main{padding-top:50px;padding-bottom:50px;}
+    #kali_tools_header{font-size:23px;font-weight:600;padding-bottom:30px;}
+    #kali_tools_desc{font-size:18px;font-weight:500;line-height:30px;padding-bottom:30px;}
+    #kali_tools_botHeader{font-size:18px; font-weight:600;padding-bottom:30px;}
+
+    #kali_everywhere_main{padding-top:50px;padding-bottom:0px;}
+    #kali_everywhere_header{font-size:30px;font-weight:600;padding-bottom:40px;}
+    #kali_everywhere_footerDivs{display:flex;gap:20px;flex-direction:column;}
+    .kaliEverywhere_divDown{position:relative;top:0px;}
+    .kaliEverywhere_img img{padding-bottom:30px;}
+    .kaliEverywhere_imgHeader{font-size:20px;font-weight:600;padding-bottom:25px;}
+    .kaliEverywhere_imgDesc{line-height:30px;text-align:center;padding-bottom:40px;}
+    #kaliEverywhere_img1 img,#kaliEverywhere_img3 img{width:90%;}
+    #kaliEverywhere_img2 img{width:60%;height:500px;}
+
+    #kali_elements_main{display:grid; grid-template-columns:repeat(1,1fr);padding-top:20px;
+        padding-bottom:0px;width:100%;margin:0 auto;border-top:1px solid white;}
+    .kaliElem_divs{padding-bottom:50px;padding-top:50px;margin:0 auto;width:100%;height:250px;
+        border-bottom:1px solid white;}
+    .kaliElem_divsImgHeader_main{display:flex;gap:5px;justify-content:center;}
+    .kaliElem_divsImgHeader{font-size:16px;font-weight:600;position:relative;top:60px;}
+    .kaliElem_divsDesc{font-size:12px;line-height:25px;text-align:center;}
+
+    #kali_preferDesktop_main{padding-top:50px;padding-bottom:50px;}
+    #kali_preferDesktop_header{font-size:30px;padding-bottom:50px;}
+    .kali_preferDesktop_divs{padding-top:10px;padding-bottom:40px;display:flex;justify-content:center;
+        gap:20px;flex-direction:column;}
+    .preferDesktop_divsLH{display:flex;gap:10px;padding-bottom:30px;justify-content:center;}
+    .preferDesktop_divsHeader{font-size:25px;font-weight:600;position:relative;top:10px;}
+    .preferDesktop_divsDesc{text-align:center;line-height:20px;font-size:13px;}
+    .preferDesktop_divsElems{width:100%;height:auto;}
+    .prefersDesktop_divsimg img{width:90%;height:200px;}
+    #preferDesktophide_mobile{display:none;}
+    #preferDesktophide_desktop{display:block;}
+
+    #kali_latest_news{padding-top:50px;padding-bottom:50px;}
+    #kaliLatestNews_header{font-size:20px;font-weight:600;padding-bottom:30px;text-align:left;
+        padding-left:10%;}
+    #kaliLatestNews_header a{text-decoration:none;padding-right:0px;}
+    .kaliNews_mainDiv{display:flex;gap:20px;justify-content:center;flex-direction:column;
+        padding-bottom:20px;}
+    .kaliNews_div_main{background:rgb(0, 0, 0);width:100%;}
+    .kaliNews_divImg{padding-bottom:20px;}
+    .kaliNews_divImg img{width:90%;}
+
+}
